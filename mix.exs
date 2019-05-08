@@ -54,7 +54,7 @@ defmodule ExAws.S3.Mixfile do
   defp ex_aws() do
     case System.get_env("AWS") do
       "LOCAL" -> {:ex_aws, path: "../ex_aws"}
-      _ -> {:ex_aws, git: "https://github.com/Joeman29/ex_aws.git"}
+      _ -> {:ex_aws, git: "https://github.com/toodimes/ex_aws.git"}
     end
   end
 end
